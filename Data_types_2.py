@@ -50,3 +50,8 @@ print(5*50)
 print("Emmanuel"*10)
 print("Emmanuel\n"*10)
 print("questions 28-31")
+print("5+10="+ str(5+10))
+print("15/2="+ str(15/2))
+print("30/2 x 5="+ str(30/2*5))
+print("30/2 x 5="+ str(30//2*5))
+
