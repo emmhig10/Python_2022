@@ -1,0 +1,16 @@
+'''
+input("push any key and then press enter")
+input("please enter your name and then press enter")
+input("please enter your age and then press enter")
+name = input("please enter your name and then press enter")
+age = input("please enter your age and then press enter")
+fav_movie = input("please enter your favorite movie and then press enter")
+book = input("please enter a book and then press enter")
+adjective = input("please enter an adjective and then press enter")
+noun = input("please enter a noun and then press enter")
+verb = input("please enter a verb and then press enter")
+print(f"hi {name} your age is {age} your favorite movie is {fav_movie} a book you like is {book} an adjective is {adjective} and noun is {noun} and a verb is {verb} ")
+'''
+age_1 = int(input ("what is your age"))
+print (f"your age in ten years will be{age_1 + 10}")
+print(f"you were born in {2022 - age_1}")
