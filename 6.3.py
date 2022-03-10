@@ -25,6 +25,7 @@ print(f"your friends will have {sharedapples} each ")
 print(f"You'll have {leftovers} apples left.")
 '''
 #18-34
+'''
 pizzas = int(input("how many pizzas do you want?"))
 people_feeding = int(input("how many people are you feeding"))
 slices_each = (pizzas*8) 
@@ -36,7 +37,22 @@ money = int(input("how much money do you have?"))
 tv_cost = int(input("how much does the tv cost?"))
 print(f"you will have {money-tv_cost} money ,left over if you buy the tv")
 print(f"if you wait for a 20 percent discount the tv will cost {0.8 * tv_cost}")
-
-
+'''
+'''
 bitcoins = float(input("how many bitcoins do you have?"))
+bitcoin_value = 57167.84 
+print(f"your bitcoins are worth ${bitcoins * bitcoin_value}")
+
+week_money = int(input("how much money do you earn per week, after tax"))
+tax = float(input("what is the tax rate as a decimal, eg:0.15"))
+print(f" you will take home ${week_money * (1 - tax) } ")
+'''
+book_name = input("type the name of a book here -->")
+print(book_name.upper())
+print(book_name.lower())
+print(book_name.title())
+
+num = int(input("please enter a number"))
+print( book_name * num)
+
 
